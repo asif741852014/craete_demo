@@ -1,0 +1,8 @@
+name: a
+on:
+  create:
+jobs:
+  job1:
+    runs-on: ubuntu-latest
+    steps:
+    - run: echo "hi from create event trigger"
